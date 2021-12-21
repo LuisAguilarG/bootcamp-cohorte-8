@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(191, 215, 223);
+}
+
+p{
+    text-indent: 2em;
+    font-family: Arial;
+}
+
+h1{
+    font-family: Arial;
+    text-align: right;
+    color:orangered;
+}
+
+h2{
+    font-family: Arial;
+}
+
+.comic{
+    font-family: "Comic Sans MS";
+}
+
+
+.estilo1{
+    background-color: white;
+    color: yellowgreen;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.grande{
+    font-size: 30pt;
+}
+
+.negro{
+    color:black;
+}
+
+.bronce{
+    color:rgb(196, 111, 0);
+    font-weight: bolder;
+}
+
+.naranja{
+    color:rgb(255, 105, 36);
+}
+
+#cierre{
+    text-align: center;
+}

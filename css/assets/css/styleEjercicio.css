@@ -1,0 +1,25 @@
+
+body{
+    background-color: #0b8146;
+}
+
+
+.italic_blanco{
+    font-style: italic;
+    color:white;
+}
+
+.amarillo{
+    color: rgb(231, 170, 2);
+    font-size: 18px;
+}
+
+.rosa{
+    color: rgb(255, 5, 130);
+    font-size: 18px;
+}
+
+.crema{
+    color:rgb(228, 223, 183);
+    font-size: 18px;
+}

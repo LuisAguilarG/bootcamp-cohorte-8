@@ -1,0 +1,89 @@
+        /* Selector de etiqueta h1 */
+        h1 {
+            /* Forma de hacer comentarios dentro de css*/
+
+            /* El valor tiene que estar unido con la medida*/
+            /* Tamaño de fuente, se puede utilizar:
+            font-size: 72 px;
+            font-size: 5cm;
+            font-size: 2in;
+            font-size: 300%;
+            */ 
+            font-size: 72px;
+            /* Color de fuente */
+            color: white;
+            /* Color del fondo, se puede utilizar: 
+            background-color:lightgray;
+            background-color: #ff7661;
+
+            Para elegir el color podemos utilizar las recomendaciones de VS Code o ingresar al siguiente link: 
+            https://coolors.co/palettes/trending
+            */
+            background-color: #f5e488;
+
+            /* Para elegir la distribución del texto */
+            text-align: center;
+            /* Todo el texto en mayúsculas */
+            text-transform: uppercase;
+        }
+
+        /* Selector de clase */
+        /* La principal ventaja es que se le puede aplicar el mismo estilo a todos los elementos que pertenezcan a una clase */
+        .encabezado{
+            font-size: 72px;
+            color: rgb(255, 255, 255);
+            background-color: #888ff5;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        body{
+            background-color: rgb(216, 218, 195);
+        }
+
+        /* Trabajando con id */
+        #texto{
+            color: rgb(240, 11, 11);
+            background-color: black;
+            font-size: 24px;
+            font-style: italic;
+        }
+
+        /* La jerarquía de las clases es mayor que el del selector de etiqueta, por especificidad */
+        .texto{
+            color: white;
+            background-color: black;
+        }
+
+        /* Primer estilo para la etiqueta p */
+        p {
+            color: whitesmoke;
+            background-color: dimgray;
+        }
+
+        /* Segundo estilo para la etiqueta p */
+        p {
+            color: yellow;
+            background-color: teal;
+        }
+
+        /* El color que va a predominar es el último que se estableció, es decir el que tiene letras amarillas y color de fondo turquesa */
+
+
+        /* Jerarquía / especificidad en CSS
+            4. etiqueta
+            3. clase
+            2. identificadores
+            1. en línea (en la propia etiqueta)
+
+            También podemos ver el "Selector Specificity" dejando el mouse sobre el selector que nos interese. 
+        */
+
+        /* Formas de dar estilo 
+            1. En el head del archivo .html
+            2. En un archivo separado de .css (la más recomendable)
+            3. En la línea del elemento en el archivo .html
+        */
+
+
+        
