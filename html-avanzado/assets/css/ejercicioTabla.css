@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgba(146, 255, 240, 0.979);
+}
+
+table, tr, th, td{
+    margin: auto;
+    border: 1px solid black;
+}
+
+table{
+    width: 600px;
+}
+
+.fondoNegro{
+    background-color: black;
+}
+
+.fondoVerde{
+    background-color:chartreuse;
+}
+
+.fondoCafe{
+    background: rgb(233, 119, 37);
+}
+
+.cursivo{
+    font-style: italic;
+}
+
+.letraRoja{
+    color: red;
+}
+
+.letraAmarilla{
+    color:yellow;
+}
+
+.bold{
+    font-weight: bold;
+}

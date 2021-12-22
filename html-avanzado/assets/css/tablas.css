@@ -1,0 +1,27 @@
+
+table{
+    width: 300px;
+    border: 2px dotted red; 
+    background-color: coral;
+    border-radius: 5px;
+}
+
+
+table tr{
+    width: 300px;
+    border: 2px dotted red; 
+}
+
+
+/*  Es el borde que se va a terminar aplicandao. Como todos tienen la misma especificidad, el último es el que va a aplicarse */
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: blueviolet;
+}
+
+td {
+    background-color: blue;
+}

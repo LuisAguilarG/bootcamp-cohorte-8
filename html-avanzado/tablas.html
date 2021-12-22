@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/tablas.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!-- colspan y rowspan -->
+    <!-- colspan - el elemento th se extiende por columnas, crece hacia la derecha -->
+    <!-- rowspan - se extienda por filas, crece hacia abajo  -->
+
+    <table>
+        <thead>
+            <!--  tr - crea una fila -->
+            <tr>
+                <!-- th - cabecera de tabla Insertar dos celdas de esta fila -->
+                <th>Cabecera</th>
+                <th colspan="2">Cabecera 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <td>Adiós</td>
+                <td">Saludo</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td> Pie de tabla</td>
+                <td> Pie de tabla</td>
+                <td> Pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--ICONOS-->
+    <!-- Fuente: 
+    https://fontawesome.com/
+    https://fonts.google.com/icons 
+    -->
+
+    <script src="https://kit.fontawesome.com/5a36ceff30.js" crossorigin="anonymous"></script>
+    <i class="fab fa-linkedin"></i>
+
+    <span class="material-icons">face</span>
+    <span class="material-icons">face</span>
+</body>
+</html>

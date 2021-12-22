@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+p {
+    /* Enlace de fuentes que vamos a utilizar: https://fonts.google.com/ */
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/* https://fonts.google.com/specimen/Pushster */
+.estilo1{
+    font-family: 'Pushster', cursive;
+}
