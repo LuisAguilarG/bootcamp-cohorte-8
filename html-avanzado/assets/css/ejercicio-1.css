@@ -1,0 +1,41 @@
+
+
+.cajaPrincipal{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 10px solid rgb(201, 224, 253);
+    border-radius: 8px;
+}
+
+.letraBlanca{
+    color:white;
+}
+
+div{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+p{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+input{
+    float: right;
+    width: 200px;
+}
+
+.bordeRojo{
+    border: 3px solid red;
+}
+
+#botonConfirmar{
+    float: left;
+    margin-left: 45px;
+    width: auto;
+}

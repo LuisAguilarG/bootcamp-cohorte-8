@@ -1,0 +1,17 @@
+.formulario{
+    border: 1px solid red;
+}
+
+.clase_nombre{
+    background-color:aquamarine;
+    border: 2px solid rgb(17, 0, 255);
+    border-radius: 10px;
+}
+
+#password{
+    border: 2px dashed blue;
+}
+
+.centrado{
+    margin: auto;
+}

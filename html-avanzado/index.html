@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>formularios</title>
+</head>
+<body>
+    <form>
+        <input type="text" />
+        <input type="date" />
+        <input type="color" /> 
+        <input type="password" />
+        <input type="file" />
+        <input type="checkbox" />
+        <input type="radio" />
+        <input type="submit" />
+        <input type="button" value="Button"/>
+    </form>
+
+    <button>Botón fuera del form</button>
+
+    <h1>Formulario</h1>
+    <form class="formulario">
+
+        <!-- Ambos label son elementos en línea, por eso aparecen un al lado del otro. También se pueden poner dentro de un div para que utilicen todo el espacio de la línea -->
+        <!-- el atributo id es para enlazarlo con el labe, el type para elegir el tipo de dato y el name para darle la funcionalidad propiamente (bases de datos) -->
+
+        <!-- El fieldset le da un marco, pero los div también pueden ir por fuera y seguirán funcionando. -->
+        <!-- <fieldset>
+            <div>
+                <label for="nombre">Nombre </label>
+                <input class="clase_nombre" id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" /> 
+            </div>
+            
+            <div>
+                <label for="apellido">Apellido</label>
+                <input id= "apellido" type="text" name="apellido" placeholder="Escribe tu apellido" />
+            </div> -->
+    
+            <!-- Escribiendo ".password" obtenemos lo siguiente:
+            <div class="password"></div> -->
+            
+            <!-- Recordatorio, una contraseña no se debe guardar en el front -->
+            <!-- <div class="password">
+                <label for="password">Contraseña</label>
+                <input id="password" type="password" name="password" placeholder="Escribe tu contraseña">
+            </div>
+        </fieldset> --> 
+
+        <!-- fieldset es opcional, pero se puede usar para englobar campos. Se puede usar en lugar de div -->
+        <fieldset></fieldset>
+
+        <div>
+            <label for="nombre">Nombre</label>
+            <input class="clase_nombre bordeRojo" id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" /> 
+        </div>
+        
+        <div>
+            <label for="apellido">Apellido</label>
+            <input id= "apellido" type="text" name="apellido" placeholder="Escribe tu apellido" />
+        </div>
+
+        <!-- Escribiendo ".password" obtenemos lo siguiente:
+        <div class="password"></div> -->
+        
+        <div class="correo">
+            <label for="correo">Correo</label>
+            <input  id="correo" type="email" name="correo" placeholder="Escribe tu correo" required />
+
+        </div>
+
+        <!-- Recordatorio, una contraseña no se debe guardar en el front -->
+        <div class="password">
+            <label for="password">Contraseña</label>
+            <input id="password" type="password" name="password" placeholder="Escribe tu contraseña" required />
+        </div>
+
+        <div class="enviar">
+            <input type="submit" value="Enviar"/>
+        </div>   
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Ingresa el número</legend>
+            <label for="numero">Número</label>
+            <input id="numero" type="number" name="numero" min="40" max="50"/>
+
+            <label for="rango">Rango</label>
+            <input id="rango" type="range" min="50">
+        </fieldset>
+    </form>
+</body>
+</html>
