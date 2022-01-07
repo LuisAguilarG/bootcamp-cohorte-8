@@ -1,0 +1,43 @@
+/* Por buenas prácticas,  */
+
+body {
+    background: lightgrey;
+}
+
+.titulo-principal {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.contenido-principal {
+    /* Relativas */
+    width: 80%;
+    /* Margen superior e inferior de 0 y tanto derecho como izquierdo de auto */
+    margin: 0 auto;
+}
+
+
+
+.contenido-principal .encabezado {
+    background-color: grey;
+    color: white;
+    padding: 10px 5px;
+}
+
+.contenido-principal .contenido {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido-imagen {
+    float: left;
+}
+
+.contenido-principal .contenido-texto {
+    margin-left: 120px;
+}
+
+.contenido-principal .contenido-texto p {
+    text-indent: 20px;
+    text-align: justify;
+}
