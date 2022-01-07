@@ -1,4 +1,63 @@
 body {
     margin: 0;
-    padding: 0;
+    background: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    padding: 3px;
+}
+
+p {
+    flex: 1 1 0%;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.contenedor-h1 {
+    margin: auto;
+}
+
+.contenedor-principal {
+    margin: 0 auto;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.contenedor-secundario {
+    display: flex;
+    margin-left: 5em;
+    align-items: center;
+}
+
+#html5,
+#css3 {
+    flex: 0 1 0%;
+    width: 250px;
+}
+
+.contenedor-descripcion {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5em;
+}
+
+.textoEstilo1 {
+    color: rgb(253, 68, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textoEstilo2 {
+    font-weight: bold;
+    background-color: white;
+    color: black;
 }
