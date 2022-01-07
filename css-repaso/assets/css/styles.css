@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #e48b8b;
+    height: 50px;
+    
+    
+}
+
+.menu ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.elemento {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu .elemento {
+    display: inline;
+    margin: 0 20px ;
+    padding: 10px
+}
+
+.menu .elemento:hover {
+    background-color: yellow;
+}
+
+.elemento a {
+    font: size 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: color 2s;
+}
+
+.elemento a:hover {
+    color: gray;
+}

@@ -1,0 +1,12 @@
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 400px;
+}
+
+.enlace {
+    display:inline-block;
+    background-color: blue;
+}
