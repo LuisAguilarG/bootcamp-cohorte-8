@@ -109,7 +109,8 @@ console.log(persona);
 */
 
 let computadoraPersonal = {
-    dueño: persona.nombre,
+    dueñoPrincipal: persona.nombre,
+    dueñosSecundarios: ["Brenda", "Roberto"],
     tipo: "Laptop",
     marca: "Dell",
     modelo: "Inspiron 15 - 5000 series",
@@ -120,3 +121,9 @@ let computadoraPersonal = {
 }
 
 console.log(computadoraPersonal);
+console.log(computadoraPersonal.dueñoPrincipal);
+console.log(computadoraPersonal.tipo);
+console.log(computadoraPersonal.ram);
+console.log(computadoraPersonal.dueñosSecundarios[0]);
+console.log(computadoraPersonal.dueñosSecundarios[1]);
+
