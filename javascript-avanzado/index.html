@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    <h1 id="title">Iniciar sesión</h1>
+
+    <!-- El atributo "for" sirve para ligar la etiqueta label con el "id" de un input. Así, cuando una persona de click en el label, redireccionará al input -->
+
+    <p>
+        <label for="email">Correo electrónico: </label>
+        <input type="email" name="email" id="email">
+    </p>
+
+    <p>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" id="password">
+    </p>
+
+    <p>
+        <button onclick="getInformation()">Inicia sesión</button>
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatum beatae inventore quos dolorem illo cum debitis assumenda, doloribus impedit quae ipsum consequuntur fugiat est dolore nostrum eligendi voluptate veritatis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatum beatae inventore quos dolorem illo cum debitis assumenda, doloribus impedit quae ipsum consequuntur fugiat est dolore nostrum eligendi voluptate veritatis.</p>
+    
+    <!-- Tiene que ir al último, antes de cerrar el body (no en el head, a diferencia del css) -->
+    <script src="assets/js/app.js"></script>
+    
+</body>
+</html>
