@@ -20,38 +20,32 @@ let precioUsuario = parseFloat(prompt("Introduce el precio $: "));
 let cuponUsuario = prompt("Introduce el cupón (Bronce, Plata, Oro o Platino) $: ");
 let descuento;
 let precioFinalUsuario;
+let valido = true;
 
 switch (cuponUsuario) {
     case "Bronce":
         descuento = .05;
-        precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
         break;
 
     case "Plata":
         descuento = .1;
-        precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
         break;
 
     case "Oro":
         descuento = .2;
-        precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
         break;
 
     case "Platino":
         descuento = .25;
-        precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
         break;
 
     default:
-    document.write(`Algún dato no es válido`);
+    document.write(`Algún dato no es válido <br>`);
+    valido = false;
         break;
 }
 
-document.write(`El precio inicial era ${precioUsuario} <br> El descuento es de $ ${descuento*100}% <br> El precio final es de $ ${precioFinalUsuario} `);
-
-
-
-
-
-
-
+if(valido != false){
+    precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
+    document.write(`El precio inicial era ${precioUsuario} <br> El descuento es de $ ${descuento*100}% <br> El precio final es de $ ${precioFinalUsuario} `);
+}
