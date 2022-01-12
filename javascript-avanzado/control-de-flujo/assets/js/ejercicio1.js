@@ -47,5 +47,5 @@ switch (cuponUsuario) {
 
 if(valido != false){
     precioFinalUsuario = precioUsuario - (precioUsuario * descuento);
-    document.write(`El precio inicial era ${precioUsuario} <br> El descuento es de $ ${descuento*100}% <br> El precio final es de $ ${precioFinalUsuario} `);
+    document.write(`El precio inicial era $ ${precioUsuario} <br> El descuento es de $ ${descuento*100}% <br> El precio final es de $ ${precioFinalUsuario} `);
 }
