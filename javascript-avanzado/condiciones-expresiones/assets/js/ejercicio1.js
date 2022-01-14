@@ -5,9 +5,7 @@ let fraseOriginal = prompt("Ingresa la frase que quieres invertir: ");
 
 
 function invertirFrase(frase) {
-    frase = frase.split("");
-    frase = frase.reverse();
-    frase = frase.join("");
+    frase = frase.split("").reverse().join("");
     return frase;
 }
 
