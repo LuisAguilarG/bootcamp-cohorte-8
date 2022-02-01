@@ -100,14 +100,17 @@ public class Operadores {
 		System.out.println(operacion2);
 		
 		// Operador ternario
-		int edad = 18;
+		int edad = 18, valor1 = 0, valor2 = 1;
 		
 		// Es un if abreviado solo nos permite tomar una decisión
 		int valor = (edad <= 18) ? 2:1;
+		int resultado = (edad <= 18) ? (valor1 = 2) : (valor1 = 3);
+		System.out.println(resultado); // Salida: 2
 		
 		// Operadores lógicos
 		// And &&
 		// or ||
+		// not !
 		
 		System.out.println(true && true); // true
 		System.out.println(true && false); // false
