@@ -48,5 +48,7 @@ public class Tabla{
         	System.out.println(num + " * " + i + " = " + (num * i));
         	i++;
         }
+        
+        console.close();
     }
 }	
