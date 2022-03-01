@@ -16,6 +16,12 @@ public class Perro extends Animal  implements Mascota, Jugar{
 	public void baniar() {
 		System.out.println("Me gusta el agua");
 	}
+
+	@Override
+	public void moverLaColita() {
+		System.out.println("El perro mueve la colita");
+		
+	}
 	
 	
 }

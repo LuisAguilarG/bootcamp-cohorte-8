@@ -1,6 +1,6 @@
 package com.generation.animales;
 
-public class Gato extends Animal implements Mascot{
+public class Gato extends Animal implements Mascota{
 	
 	@Override
 	public void jugar() {
